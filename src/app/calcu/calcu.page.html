@@ -1,0 +1,100 @@
+<ion-content [translucent]> 
+  <style>
+     
+      ion-content{
+        --background: #050000ef;
+      }
+      ion-toolbar{
+        --background: #ffffff;
+      }
+      ion-header{
+        --background: #050000ef;
+      
+      }
+      ion-button{
+        --background: #f1e6f1;
+      
+      }
+      ion-item{
+        --background: #f7f1f1;
+      }
+      ion-content {
+      --background: url(../../assets/back3.jpg) no-repeat center/cover fixed;
+      }
+    
+  </style>
+   
+      
+      
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+     <ion-label>
+         <center><h1  style="color:rgb(11, 252, 228);"><i><b> Calculator </b></i></h1></center>
+     </ion-label>
+     <ion-card-content>
+
+      <ion-input type="name"  style="color:rgb(11, 252, 228);">Appliance</ion-input>
+      <ion-list>
+        <ion-item>
+          <ion-select interface="popover" placeholder="Select">
+            <ion-select-option value="tv">TV</ion-select-option>
+            <ion-select-option value="laptop">LAPTOP</ion-select-option>
+            <ion-select-option value="bananas">WASHING</ion-select-option>
+          </ion-select>
+        </ion-item>
+      </ion-list>
+      <br>
+      <ion-label style="color:rgb(11, 252, 228);">Power Consumption</ion-label>
+      <ion-item>
+        
+        <ion-input placeholder="" type="number"></ion-input>
+        <ion-item>
+          
+          <ion-select interface="popover" placeholder="Select">
+            <ion-select-option value="w">watts</ion-select-option>
+            <ion-select-option value="kw">kilo/watts</ion-select-option>
+            
+          </ion-select>
+      </ion-item>
+      </ion-item>
+        <ion-label style="color:rgb(11, 252, 228);">Hours User Per Day</ion-label>
+      <ion-item>
+        <ion-input placeholder="" type="number"></ion-input>
+      </ion-item>
+      <br>
+      <ion-label style="color:rgb(11, 252, 228);">1 Kilo-watt hour (P)</ion-label>
+      <ion-item>
+        <ion-input placeholder="" type="number"></ion-input>
+      </ion-item>
+        <center><ion-button href="calcu" style= "color:#0e0c0cef; border-radius:30%;float:center; width:170px;height:40px;">Calculate</ion-button></center>
+        <center><ion-button href="calcu" style= "color:#0e0c0cef; border-radius:30%;float:center; width:170px;height:40px;">Reset</ion-button></center>
+      
+      
+      
+  
+
+      <br>
+      <br>
+  
+     
+    </ion-card-content>
+    <ion-card>
+      <ion-item>
+        <ion-label>
+          <ion-label><b>Power Consumption</b></ion-label>
+          <ion-label><h3>Electricity Cost Per Day: </h3></ion-label>
+          <ion-label> P6000 </ion-label>
+          <ion-label><h3>Electricity Cost Per Month:</h3></ion-label>
+          <ion-label> P12,000 </ion-label>
+          <ion-label><h3>Electricity Cost Per Year: </h3></ion-label>
+          <ion-label> P120,000 </ion-label>
+
+        </ion-label>
+
+      </ion-item>
+
+
+    </ion-card>
